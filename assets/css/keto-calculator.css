@@ -1,0 +1,475 @@
+.keto_calculator_container {
+  background-color: #fff;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 48px;
+  -webkit-box-shadow: 0 2px 20px 0 rgba(0,0,0,0.08);
+  -moz-box-shadow: 0 2px 20px 0 rgba(0,0,0,0.08);
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.08);
+}
+
+@media (max-width: 576px) {
+  .keto_calculator_container {
+    padding: 12px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+#ketoDietBuddy {
+  padding: 48px 0 0 0;
+}
+
+#ketoDietBuddy input[type=text] {
+  width: 70%;
+  margin: 12px 12px 12px 0;
+}
+
+@media (max-width: 576px) {
+  #ketoDietBuddy input[type=text] {
+    width: 72%;
+  }
+}
+
+#ketoDietBuddy .calcUS span {
+  margin-right: 12px;
+}
+
+#ketoDietBuddy .calcUS input[name=heightUSFeet],#ketoDietBuddy .calcUS input[name=heightUSInches] {
+  width: 29%;
+}
+
+@media (max-width: 576px) {
+  #ketoDietBuddy .calcUS input[name=heightUSFeet],#ketoDietBuddy .calcUS input[name=heightUSInches] {
+    width: 72%;
+  }
+}
+
+#ketoDietBuddy .calcMetric small {
+  font-style: italic;
+}
+
+#ketoDietBuddy .calcMetric input[name=heightMetricMeters] {
+  margin-bottom: 6px;
+}
+
+#ketoDietBuddy span.kdbFieldName,div.ketoBuddy span.kdbFieldName {
+  display: inline-block;
+  min-width: 96pt;
+  color: #333333;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#ketoDietBuddy h3 {
+  color: #333333;
+  font-size: 23px;
+  line-height: 1.26;
+  letter-spacing: -0.7px;
+  font-weight: bold;
+}
+
+#ketoDietBuddy h4 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 24px 0 12px 0;
+}
+
+.keto_goals_title {
+  margin-bottom: 12px;
+}
+
+#resultsLosingWeight,#resultsGainingWeight,#resultsCustom {
+  padding-top: 47.5px;
+}
+
+#ketoDietBuddy .kdbMacroContent,div.ketoBuddy .kdbMacroContent {
+  overflow: hidden;
+}
+
+#ketoDietBuddy .kdbMacroContentLeft,div.ketoBuddy .kdbMacroContentLeft {
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+#ketoDietBuddy .kdbEnergyOverview,div.ketoBuddy .kdbEnergyOverview {
+  width: 50%;
+}
+
+#ketoDietBuddy .kdbMacroLegend,div.ketoBuddy .kdbMacroLegend {
+  margin-top: 1rem;
+}
+
+#ketoDietBuddy table,div.ketoBuddy table {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-collapse: collapse;
+}
+
+#ketoDietBuddy td.kdbLegendName,div.ketoBuddy td.kdbLegendName {
+  color: #fff;
+}
+
+#ketoDietBuddy td.kdbLegendName.kdbNetCarbs,#ketoDietBuddy td.kdbLegendName.kdbProtein,#ketoDietBuddy td.kdbLegendName.kdbFat,div.ketoBuddy td.kdbLegendName.kdbNetCarbs,div.ketoBuddy td.kdbLegendName.kdbProtein,div.ketoBuddy td.kdbLegendName.kdbFat {
+  text-align: center;
+  background-color: #ffab00;
+  padding: 12px 0;
+}
+
+#ketoDietBuddy td.kdbLegendValue,div.ketoBuddy td.kdbLegendValue {
+  text-align: right;
+}
+
+#ketoDietBuddy td.kdbLegendUnits.kdbNetCarbs,#ketoDietBuddy td.kdbLegendUnits.kdbProtein,#ketoDietBuddy td.kdbLegendUnits.kdbFat,div.ketoBuddy td.kdbLegendUnits.kdbNetCarbs,div.ketoBuddy td.kdbLegendUnits.kdbProtein,div.ketoBuddy td.kdbLegendUnits.kdbFat {
+  padding-left: 0.5em;
+}
+
+#ketoDietBuddy td.kdbLegendUnits.kdbNetCarbs,div.ketoBuddy td.kdbLegendUnits.kdbNetCarbs {
+  width: 17%;
+}
+
+#ketoDietBuddy td.kdbLegendUnits.kdbProtein,div.ketoBuddy td.kdbLegendUnits.kdbProtein {
+  width: 16%;
+}
+
+#ketoDietBuddy td.kdbLegendUnits.kdbFat,div.ketoBuddy td.kdbLegendUnits.kdbFat {
+  width: 19%;
+}
+
+.kdbMacroLegend tr:nth-child(3) td {
+  background-color: #f5f5f5;
+}
+
+#ketoDietBuddy .kdbEnergyOverview td,div.ketoBuddy .kdbEnergyOverview td {
+  padding: 0;
+  border: none;
+}
+
+#ketoDietBuddy .kdbMacroLegend td,#ketoDietBuddy .kdbMacroSummary td,div.ketoBuddy .kdbMacroLegend td,div.ketoBuddy .kdbMacroSummary td {
+  padding: 12px 0;
+  border: none;
+}
+
+#ketoDietBuddy .kdbMacroContentRight,div.ketoBuddy .kdbMacroContentRight {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  #ketoDietBuddy .kdbEnergyOverview,#ketoDietBuddy .kdbMacroContentLeft,div.ketoBuddy .kdbEnergyOverview,div.ketoBuddy .kdbMacroContentLeft {
+    width: 100%;
+  }
+
+  #ketoDietBuddy span.kdbFieldName,div.ketoBuddy span.kdbFieldName {
+    min-width: 70pt;
+  }
+
+  #ketoDietBuddy .kdbEnergyOverview td,#ketoDietBuddy .kdbMacroLegend td,#ketoDietBuddy .kdbMacroSummary td,div.ketoBuddy .kdbEnergyOverview td,div.ketoBuddy .kdbMacroLegend td,div.ketoBuddy .kdbMacroSummary td {
+    padding: .1rem;
+  }
+}
+
+.keto_tab {
+  overflow: hidden;
+}
+
+.keto_tab button {
+  color: #333333;
+  float: left;
+  background-color: transparent;
+  border: 0px solid transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 6px 0;
+  margin-right: 24px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  width: 22%;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.keto_tab button .keto_tab_steps {
+  float: right;
+}
+
+.keto_tab button hr {
+  height: 6px;
+  background-color: #e3e3e3;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 0;
+  width: 100%;
+  padding: 0;
+  margin: 6px 0 0 0;
+}
+
+.keto_tab button:hover {
+  color: #ffab00;
+}
+
+.keto_tab button:hover hr {
+  background-color: #ffab00;
+}
+
+.keto_tab button.active {
+  color: #ffab00;
+}
+
+.keto_tab button.active hr {
+  background-color: #ffab00;
+}
+
+@media (max-width: 992px) {
+  .keto_tab button {
+    display: none;
+  }
+
+  .keto_tab button.active {
+    display: block;
+    width: 100%;
+  }
+}
+
+.keto_tab_1 button:nth-child(1) {
+  color: #ffab00;
+}
+
+.keto_tab_1 button:nth-child(1) .keto_tab_steps {
+  color: #6b6b6b;
+}
+
+.keto_tab_1 button:nth-child(1) hr {
+  background-color: #ffab00;
+}
+
+.keto_tab_2 button:nth-child(1),.keto_tab_2 button:nth-child(2) {
+  color: #ffab00;
+}
+
+.keto_tab_2 button:nth-child(1) .keto_tab_steps,.keto_tab_2 button:nth-child(2) .keto_tab_steps {
+  color: #6b6b6b;
+}
+
+.keto_tab_2 button:nth-child(1) hr,.keto_tab_2 button:nth-child(2) hr {
+  background-color: #ffab00;
+}
+
+.keto_tab_3 button:nth-child(1),.keto_tab_3 button:nth-child(2),.keto_tab_3 button:nth-child(3) {
+  color: #ffab00;
+}
+
+.keto_tab_3 button:nth-child(1) .keto_tab_steps,.keto_tab_3 button:nth-child(2) .keto_tab_steps,.keto_tab_3 button:nth-child(3) .keto_tab_steps {
+  color: #6b6b6b;
+}
+
+.keto_tab_3 button:nth-child(1) hr,.keto_tab_3 button:nth-child(2) hr,.keto_tab_3 button:nth-child(3) hr {
+  background-color: #ffab00;
+}
+
+.keto_tab_4 button:nth-child(1),.keto_tab_4 button:nth-child(2),.keto_tab_4 button:nth-child(3),.keto_tab_4 button:nth-child(4) {
+  color: #ffab00;
+}
+
+.keto_tab_4 button:nth-child(1) .keto_tab_steps,.keto_tab_4 button:nth-child(2) .keto_tab_steps,.keto_tab_4 button:nth-child(3) .keto_tab_steps,.keto_tab_4 button:nth-child(4) .keto_tab_steps {
+  color: #6b6b6b;
+}
+
+.keto_tab_4 button:nth-child(1) hr,.keto_tab_4 button:nth-child(2) hr,.keto_tab_4 button:nth-child(3) hr,.keto_tab_4 button:nth-child(4) hr {
+  background-color: #ffab00;
+}
+
+.keto_tabcontent {
+  display: none;
+  padding: 0;
+}
+
+.keto_tabcontent:first-child {
+  display: block;
+}
+
+.keto_calc_nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  border-top: 1px solid #ececec;
+  padding-top: 24px;
+  margin-top: 24px;
+}
+
+@media (max-width: 576px) {
+  .keto_calc_nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -moz-box-orient: vertical;
+    -moz-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .keto_calc_nav button {
+    margin-bottom: 12px;
+  }
+}
+
+.keto_switch_container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-top: 12px;
+}
+
+label.keto_switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 24px;
+  margin: 0 24px;
+}
+
+label.keto_switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.keto_slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #ffab00;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  transition: .4s;
+}
+
+.keto_slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 2px;
+  bottom: 2px;
+  background-color: #ffab00;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.keto_slider:before {
+  -webkit-transform: translateX(24px);
+  -moz-transform: translateX(24px);
+  transform: translateX(24px);
+}
+
+.keto_slider.round {
+  -moz-border-radius: 34px;
+  border-radius: 34px;
+}
+
+.keto_slider.round:before {
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+select[name='units'] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.activity_container {
+  margin-top: 12px;
+}
+
+.keto_radio_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.keto_radio_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.keto_radio_checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  border: 1px solid #e3e3e3;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.keto_radio_container:hover input ~ .keto_radio_checkmark {
+  background-color: #ccc;
+}
+
+.keto_radio_container input:checked ~ .keto_radio_checkmark {
+  background-color: #ffab00;
+  border: none;
+}
+
+.keto_radio_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.keto_radio_container input:checked ~ .keto_radio_checkmark:after {
+  display: block;
+}
+
+.keto_radio_container .keto_radio_checkmark:after {
+  top: 6px;
+  left: 6px;
+  width: 12px;
+  height: 12px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+}
+
+.keto_radio_description {
+  padding-left: 35px;
+}
