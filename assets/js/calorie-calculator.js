@@ -3534,25 +3534,25 @@ jQuery("select").change(function (t) {
 
 function openTab(indextab) {
   // Get all elements with class="tabcontent" and hide them
-  jQuery(".keto_tabcontent").each(function () {
+  jQuery(".calorie_tabcontent").each(function () {
     jQuery(this).hide();
   });
 
   // Get all elements with class="tablinks" and remove the class "active"
-  jQuery(".keto_tab .tablinks").each(function (index) {
+  jQuery(".calorie_tab .tablinks").each(function (index) {
     jQuery(this).removeClass("active");
 
     if (index === indextab) {
       jQuery(this).addClass("active");
-      jQuery(".keto_tabcontent:nth-child(" + parseInt(index + 1) + ")").show();
+      jQuery(".calorie_tabcontent:nth-child(" + parseInt(index + 1) + ")").show();
     }
   });
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  jQuery(".keto_tab").removeClass(
-    "keto_tab_1 keto_tab_2 keto_tab_3 keto_tab_4"
+  jQuery(".calorie_tab").removeClass(
+    "calorie_tab_1 calorie_tab_2 calorie_tab_3 calorie_tab_4"
   );
-  jQuery(".keto_tab").addClass("keto_tab_" + parseInt(indextab + 1));
+  jQuery(".calorie_tab").addClass("calorie_tab_" + parseInt(indextab + 1));
 }
 
 jQuery(document).ready(function ($) {
@@ -3576,43 +3576,43 @@ jQuery(document).ready(function ($) {
     adjust_canvas_for_lower_width();
   });
 
-  jQuery(".keto_tab .tablinks:nth-child(1)").on("click", function () {
+  jQuery(".calorie_tab .tablinks:nth-child(1)").on("click", function () {
     openTab(0);
   });
 
-  jQuery(".keto_tab .tablinks:nth-child(2)").on("click", function () {
+  jQuery(".calorie_tab .tablinks:nth-child(2)").on("click", function () {
     openTab(1);
   });
 
-  jQuery(".keto_tab .tablinks:nth-child(3)").on("click", function () {
+  jQuery(".calorie_tab .tablinks:nth-child(3)").on("click", function () {
     openTab(2);
   });
 
-  jQuery(".keto_tab .tablinks:nth-child(4)").on("click", function () {
+  jQuery(".calorie_tab .tablinks:nth-child(4)").on("click", function () {
     openTab(3);
   });
 
-  jQuery("#keto_about_you .keto_button_next").on("click", function () {
+  jQuery("#calorie_about_you .calorie_button_next").on("click", function () {
     openTab(1);
   });
 
-  jQuery("#keto_activity_level .keto_button_prev").on("click", function () {
+  jQuery("#calorie_activity_level .calorie_button_prev").on("click", function () {
     openTab(0);
   });
 
-  jQuery("#keto_activity_level .keto_button_next").on("click", function () {
+  jQuery("#calorie_activity_level .calorie_button_next").on("click", function () {
     openTab(2);
   });
 
-  jQuery("#keto_goal .keto_button_prev").on("click", function () {
+  jQuery("#calorie_goal .calorie_button_prev").on("click", function () {
     openTab(1);
   });
 
-  jQuery("#keto_goal .keto_button_next").on("click", function () {
+  jQuery("#calorie_goal .calorie_button_next").on("click", function () {
     openTab(3);
   });
 
-  jQuery("#keto_result .keto_button_prev").on("click", function () {
+  jQuery("#calorie_result .calorie_button_prev").on("click", function () {
     openTab(2);
   });
 });

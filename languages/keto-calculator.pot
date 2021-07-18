@@ -1,8 +1,8 @@
-# Copyright (C) 2019 Keto Calculator
-# This file is distributed under the same license as the Keto Calculator package.
+# Copyright (C) 2021 Calorie Calculator
+# This file is distributed under the same license as the Calorie Calculator package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Keto Calculator\n"
+"Project-Id-Version: Calorie Calculator\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,291 +13,291 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: template-parts/keto-calculator.php:15
+#: template-parts/calorie-calculator.php:15
 msgid "1. About You"
 msgstr ""
 
-#: template-parts/keto-calculator.php:15
+#: template-parts/calorie-calculator.php:15
 msgid "1 of 4"
 msgstr ""
 
-#: template-parts/keto-calculator.php:16
+#: template-parts/calorie-calculator.php:16
 msgid "2. Activity Level"
 msgstr ""
 
-#: template-parts/keto-calculator.php:16
+#: template-parts/calorie-calculator.php:16
 msgid "2 of 4"
 msgstr ""
 
-#: template-parts/keto-calculator.php:17
+#: template-parts/calorie-calculator.php:17
 msgid "3. Goals"
 msgstr ""
 
-#: template-parts/keto-calculator.php:17
+#: template-parts/calorie-calculator.php:17
 msgid "3 of 4"
 msgstr ""
 
-#: template-parts/keto-calculator.php:18
+#: template-parts/calorie-calculator.php:18
 msgid "4. Result"
 msgstr ""
 
-#: template-parts/keto-calculator.php:18
+#: template-parts/calorie-calculator.php:18
 msgid "4 of 4"
 msgstr ""
 
-#: template-parts/keto-calculator.php:28
+#: template-parts/calorie-calculator.php:28
 msgid "Metric"
 msgstr ""
 
-#: template-parts/keto-calculator.php:33
+#: template-parts/calorie-calculator.php:33
 msgid "US Customary"
 msgstr ""
 
-#: template-parts/keto-calculator.php:37
+#: template-parts/calorie-calculator.php:37
 msgid "Gender"
 msgstr ""
 
-#: template-parts/keto-calculator.php:39
+#: template-parts/calorie-calculator.php:39
 msgid "Female"
 msgstr ""
 
-#: template-parts/keto-calculator.php:44
+#: template-parts/calorie-calculator.php:44
 msgid "Male"
 msgstr ""
 
-#: template-parts/keto-calculator.php:48
+#: template-parts/calorie-calculator.php:48
 msgid "Age"
 msgstr ""
 
-#: template-parts/keto-calculator.php:53, template-parts/keto-calculator.php:63, template-parts/keto-calculator.php:70
+#: template-parts/calorie-calculator.php:53, template-parts/calorie-calculator.php:63, template-parts/calorie-calculator.php:70
 msgid "Weight"
 msgstr ""
 
-#: template-parts/keto-calculator.php:53
+#: template-parts/calorie-calculator.php:53
 msgid "Kg"
 msgstr ""
 
-#: template-parts/keto-calculator.php:55, template-parts/keto-calculator.php:65, template-parts/keto-calculator.php:73
+#: template-parts/calorie-calculator.php:55, template-parts/calorie-calculator.php:65, template-parts/calorie-calculator.php:73
 msgid "Height"
 msgstr ""
 
-#: template-parts/keto-calculator.php:57
+#: template-parts/calorie-calculator.php:57
 msgid "meters"
 msgstr ""
 
-#: template-parts/keto-calculator.php:58
+#: template-parts/calorie-calculator.php:58
 msgid "(e.g. 1.76 meters = 176 cm)"
 msgstr ""
 
-#: template-parts/keto-calculator.php:63, template-parts/keto-calculator.php:71
+#: template-parts/calorie-calculator.php:63, template-parts/calorie-calculator.php:71
 msgid "lbs"
 msgstr ""
 
-#: template-parts/keto-calculator.php:65, template-parts/keto-calculator.php:73
+#: template-parts/calorie-calculator.php:65, template-parts/calorie-calculator.php:73
 msgid "feet"
 msgstr ""
 
-#: template-parts/keto-calculator.php:66, template-parts/keto-calculator.php:74
+#: template-parts/calorie-calculator.php:66, template-parts/calorie-calculator.php:74
 msgid "inches"
 msgstr ""
 
-#: template-parts/keto-calculator.php:70
+#: template-parts/calorie-calculator.php:70
 msgid "stones"
 msgstr ""
 
-#: template-parts/keto-calculator.php:79, template-parts/keto-calculator.php:137
+#: template-parts/calorie-calculator.php:79, template-parts/calorie-calculator.php:137
 msgid "Next"
 msgstr ""
 
-#: template-parts/keto-calculator.php:84
+#: template-parts/calorie-calculator.php:84
 msgid "Activity Level"
 msgstr ""
 
-#: template-parts/keto-calculator.php:88
+#: template-parts/calorie-calculator.php:88
 msgid "Sedentary"
 msgstr ""
 
-#: template-parts/keto-calculator.php:93
+#: template-parts/calorie-calculator.php:93
 msgid "Not much activity with little to no exercise. Typically a desk job."
 msgstr ""
 
-#: template-parts/keto-calculator.php:97
+#: template-parts/calorie-calculator.php:97
 msgid "Lightly active"
 msgstr ""
 
-#: template-parts/keto-calculator.php:102
+#: template-parts/calorie-calculator.php:102
 msgid "Daytime walking with less than 20 minutes exercise per day. Usually light strolls after meals."
 msgstr ""
 
-#: template-parts/keto-calculator.php:106
+#: template-parts/calorie-calculator.php:106
 msgid "Moderately active"
 msgstr ""
 
-#: template-parts/keto-calculator.php:111
+#: template-parts/calorie-calculator.php:111
 msgid "A lightly active day job with physical labor or scheduled exercise (i.e. riding your bike to work or lifting a few times a week)."
 msgstr ""
 
-#: template-parts/keto-calculator.php:115
+#: template-parts/calorie-calculator.php:115
 msgid "Very active"
 msgstr ""
 
-#: template-parts/keto-calculator.php:120
+#: template-parts/calorie-calculator.php:120
 msgid "A very active day job (i.e. construction or industrial worker) or intense amount of exercise every day."
 msgstr ""
 
-#: template-parts/keto-calculator.php:124
+#: template-parts/calorie-calculator.php:124
 msgid "Athlete/Bodybuilder"
 msgstr ""
 
-#: template-parts/keto-calculator.php:129
+#: template-parts/calorie-calculator.php:129
 msgid "People who do high-intensity training like Crossfit. An average person who exercises four to five times a week."
 msgstr ""
 
-#: template-parts/keto-calculator.php:136, template-parts/keto-calculator.php:190, template-parts/keto-calculator.php:236
+#: template-parts/calorie-calculator.php:136, template-parts/calorie-calculator.php:190, template-parts/calorie-calculator.php:236
 msgid "Back"
 msgstr ""
 
-#: template-parts/keto-calculator.php:144
+#: template-parts/calorie-calculator.php:144
 msgid "Body fat"
 msgstr ""
 
-#: template-parts/keto-calculator.php:145, template-parts/keto-calculator.php:184, template-parts/keto-calculator.php:204, template-parts/keto-calculator.php:204, template-parts/keto-calculator.php:204, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:232, template-parts/keto-calculator.php:232, template-parts/keto-calculator.php:232
+#: template-parts/calorie-calculator.php:145, template-parts/calorie-calculator.php:184, template-parts/calorie-calculator.php:204, template-parts/calorie-calculator.php:204, template-parts/calorie-calculator.php:204, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:232, template-parts/calorie-calculator.php:232, template-parts/calorie-calculator.php:232
 msgid "%"
 msgstr ""
 
-#: template-parts/keto-calculator.php:146
+#: template-parts/calorie-calculator.php:146
 msgid "Net carbs"
 msgstr ""
 
-#: template-parts/keto-calculator.php:147, template-parts/keto-calculator.php:201, template-parts/keto-calculator.php:204, template-parts/keto-calculator.php:204, template-parts/keto-calculator.php:204, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:232, template-parts/keto-calculator.php:232, template-parts/keto-calculator.php:232, template-parts/keto-calculator.php:232
+#: template-parts/calorie-calculator.php:147, template-parts/calorie-calculator.php:201, template-parts/calorie-calculator.php:204, template-parts/calorie-calculator.php:204, template-parts/calorie-calculator.php:204, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:232, template-parts/calorie-calculator.php:232, template-parts/calorie-calculator.php:232, template-parts/calorie-calculator.php:232
 msgid "grams"
 msgstr ""
 
-#: template-parts/keto-calculator.php:148
+#: template-parts/calorie-calculator.php:148
 msgid "Specify the amount of daily net carbs you'd like to consume. Typically, 20-30 grams is recommended to start with."
 msgstr ""
 
-#: template-parts/keto-calculator.php:154
+#: template-parts/calorie-calculator.php:154
 msgid "What are your end goals of a ketogenic diet?"
 msgstr ""
 
-#: template-parts/keto-calculator.php:158
+#: template-parts/calorie-calculator.php:158
 msgid "Weight loss"
 msgstr ""
 
-#: template-parts/keto-calculator.php:165
+#: template-parts/calorie-calculator.php:165
 msgid "Weight gain"
 msgstr ""
 
-#: template-parts/keto-calculator.php:172
+#: template-parts/calorie-calculator.php:172
 msgid "Custom"
 msgstr ""
 
-#: template-parts/keto-calculator.php:180
+#: template-parts/calorie-calculator.php:180
 msgid "Enter the calorie intake adjustment. For a calorie deficit (weight loss) enter a negative value (e.g. -10) while for a calorie surplus (weight gain) enter a positive value (e.g. 15)."
 msgstr ""
 
-#: template-parts/keto-calculator.php:181
+#: template-parts/calorie-calculator.php:181
 msgid "It is recommended that you opt for a moderate calorie deficit or surplus."
 msgstr ""
 
-#: template-parts/keto-calculator.php:183
+#: template-parts/calorie-calculator.php:183
 msgid "Calorie adjustment:"
 msgstr ""
 
-#: template-parts/keto-calculator.php:191
+#: template-parts/calorie-calculator.php:191
 msgid "Calculate Now"
 msgstr ""
 
-#: template-parts/keto-calculator.php:197
+#: template-parts/calorie-calculator.php:197
 msgid "Maintenance"
 msgstr ""
 
-#: template-parts/keto-calculator.php:198
+#: template-parts/calorie-calculator.php:198
 msgid "Maintenance level is the level at which your weight remains stable."
 msgstr ""
 
-#: template-parts/keto-calculator.php:201, template-parts/keto-calculator.php:232
+#: template-parts/calorie-calculator.php:201, template-parts/calorie-calculator.php:232
 msgid "Your BMR is:"
 msgstr ""
 
-#: template-parts/keto-calculator.php:201, template-parts/keto-calculator.php:201, template-parts/keto-calculator.php:204, template-parts/keto-calculator.php:204, template-parts/keto-calculator.php:204, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:232, template-parts/keto-calculator.php:232, template-parts/keto-calculator.php:232, template-parts/keto-calculator.php:232, template-parts/keto-calculator.php:232
+#: template-parts/calorie-calculator.php:201, template-parts/calorie-calculator.php:201, template-parts/calorie-calculator.php:204, template-parts/calorie-calculator.php:204, template-parts/calorie-calculator.php:204, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:232, template-parts/calorie-calculator.php:232, template-parts/calorie-calculator.php:232, template-parts/calorie-calculator.php:232, template-parts/calorie-calculator.php:232
 msgid "kcal"
 msgstr ""
 
-#: template-parts/keto-calculator.php:201, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:232
+#: template-parts/calorie-calculator.php:201, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:232
 msgid "Calories to consume:"
 msgstr ""
 
-#: template-parts/keto-calculator.php:201, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:232
+#: template-parts/calorie-calculator.php:201, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:232
 msgid "Your fat intake should be:"
 msgstr ""
 
-#: template-parts/keto-calculator.php:204, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:232
+#: template-parts/calorie-calculator.php:204, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:232
 msgid "Protein"
 msgstr ""
 
-#: template-parts/keto-calculator.php:204, template-parts/keto-calculator.php:217, template-parts/keto-calculator.php:218, template-parts/keto-calculator.php:219, template-parts/keto-calculator.php:225, template-parts/keto-calculator.php:226, template-parts/keto-calculator.php:227, template-parts/keto-calculator.php:232
+#: template-parts/calorie-calculator.php:204, template-parts/calorie-calculator.php:217, template-parts/calorie-calculator.php:218, template-parts/calorie-calculator.php:219, template-parts/calorie-calculator.php:225, template-parts/calorie-calculator.php:226, template-parts/calorie-calculator.php:227, template-parts/calorie-calculator.php:232
 msgid "Fat"
 msgstr ""
 
-#: template-parts/keto-calculator.php:209
+#: template-parts/calorie-calculator.php:209
 msgid "Sorry, cannot offer any weight loss suggestions. Please use the Custom section for weight loss macro targets."
 msgstr ""
 
-#: template-parts/keto-calculator.php:210
+#: template-parts/calorie-calculator.php:210
 msgid "Your body fat is too low. You should have a minimum of"
 msgstr ""
 
-#: template-parts/keto-calculator.php:210
+#: template-parts/calorie-calculator.php:210
 msgid "% body fat (essential fat you cannot lose)."
 msgstr ""
 
-#: template-parts/keto-calculator.php:210
+#: template-parts/calorie-calculator.php:210
 msgid "It is not advisable for you to lose any more weight."
 msgstr ""
 
-#: template-parts/keto-calculator.php:211
+#: template-parts/calorie-calculator.php:211
 msgid "Based on the amount of net carbs you specified, it would impossible to lose any weight. Please, reduce the amount of net carbs and try again."
 msgstr ""
 
-#: template-parts/keto-calculator.php:215, template-parts/keto-calculator.php:223, template-parts/keto-calculator.php:231
+#: template-parts/calorie-calculator.php:215, template-parts/calorie-calculator.php:223, template-parts/calorie-calculator.php:231
 msgid "Goal"
 msgstr ""
 
-#: template-parts/keto-calculator.php:216
+#: template-parts/calorie-calculator.php:216
 msgid "Below is a range of calorie deficits to help you lose weight. For best results, it is recommended that you opt for a moderate calorie deficit of 10-20%."
 msgstr ""
 
-#: template-parts/keto-calculator.php:217
+#: template-parts/calorie-calculator.php:217
 msgid "Small calorie deficit (11%)"
 msgstr ""
 
-#: template-parts/keto-calculator.php:218
+#: template-parts/calorie-calculator.php:218
 msgid "Moderate calorie deficit (22%)"
 msgstr ""
 
-#: template-parts/keto-calculator.php:219
+#: template-parts/calorie-calculator.php:219
 msgid "Large calorie deficit (33%)"
 msgstr ""
 
-#: template-parts/keto-calculator.php:224
+#: template-parts/calorie-calculator.php:224
 msgid "Below is a range of calorie surpluses to help you bulk up and gain muscle size. Keep in mind that you will need to add physical activity (weight training) in order to increase your muscle mass. For best results, it is recommended that you opt for a moderate calorie surplus of 10-20%."
 msgstr ""
 
-#: template-parts/keto-calculator.php:225
+#: template-parts/calorie-calculator.php:225
 msgid "Calorie surplus (10%)"
 msgstr ""
 
-#: template-parts/keto-calculator.php:226
+#: template-parts/calorie-calculator.php:226
 msgid "Calorie surplus (15%)"
 msgstr ""
 
-#: template-parts/keto-calculator.php:227
+#: template-parts/calorie-calculator.php:227
 msgid "alorie surplus (20%)"
 msgstr ""
 
-#: template-parts/keto-calculator.php:232
+#: template-parts/calorie-calculator.php:232
 msgid "Custom adjustment (0%)"
 msgstr ""
 
