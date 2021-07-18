@@ -607,17 +607,17 @@ function rebuildUI(t, e) {
         updateResults(
           h,
           "resultsSmallDeficit",
-          "Small calorie deficit (" + (-h).toFixed(0) + "%)"
+          "Pequeño déficit de calorías (" + (-h).toFixed(0) + "%)"
         ),
           updateResults(
             r,
             "resultsMediumDeficit",
-            "Moderate calorie deficit (" + (-r).toFixed(0) + "%)"
+            "Déficit calórico moderado (" + (-r).toFixed(0) + "%)"
           ),
           updateResults(
             l,
             "resultsLargeDeficit",
-            "Large calorie deficit (" + (-l).toFixed(0) + "%)"
+            "Gran déficit de calorías (" + (-l).toFixed(0) + "%)"
           );
       }
     } else jQuery("#resultsLosingWeight").hide();
@@ -628,9 +628,9 @@ function rebuildUI(t, e) {
         jQuery("#goalCustom").hide(),
         jQuery("#resultsCustom").hide(),
         jQuery("p.kdbWarning.kdbCARBSTOOHIGH").hide(),
-        updateResults(10, "resultsSmallSurplus", "Calorie surplus (10%)"),
-        updateResults(15, "resultsMediumSurplus", "Calorie surplus (15%)"),
-        updateResults(20, "resultsLargeSurplus", "Calorie surplus (20%)"))
+        updateResults(10, "resultsSmallSurplus", "Excedente de calorías (10%)"),
+        updateResults(15, "resultsMediumSurplus", "Excedente de calorías (15%)"),
+        updateResults(20, "resultsLargeSurplus", "Excedente de calorías (20%)"))
       : (jQuery("#resultsLosingWeight").hide(),
         jQuery("#resultsGainingWeight").hide(),
         jQuery("#goalCustom").show(),

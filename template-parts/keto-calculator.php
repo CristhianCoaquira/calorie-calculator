@@ -54,7 +54,7 @@ if (!defined('ABSPATH')) {
 						</div>
 					</div><br>
 
-					<p><span class="kdbFieldName"><?php echo esc_html__('Age', 'keto-calculator'); ?></span><br /><input type="text" name="age" value="35"><span><?php echo esc_html__('years'); ?></span></p>
+					<p><span class="kdbFieldName"><?php echo esc_html__('Age', 'keto-calculator'); ?></span><br /><input type="text" name="age" value="35"><span><?php echo esc_html__('years', 'keto-calculator'); ?></span></p>
 				</div>
 
 				<div class="col-md-6 col-12">
@@ -729,6 +729,5 @@ if (!defined('ABSPATH')) {
 				<button class="uf-buttons-secondary keto_button_prev"><?php echo esc_html__('Back', 'keto-calculator'); ?></button><i></i>
 			</div>
 		</div>
-
 	</div>
 </div>

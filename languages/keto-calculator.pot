@@ -300,3 +300,6 @@ msgstr ""
 #: template-parts/keto-calculator.php:232
 msgid "Custom adjustment (0%)"
 msgstr ""
+
+msgid "years"
+msgstr ""
