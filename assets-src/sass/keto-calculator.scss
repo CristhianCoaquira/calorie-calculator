@@ -1,0 +1,489 @@
+.keto_calculator_container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 48px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+
+  @media (max-width: 576px) {
+    padding: 12px;
+    box-shadow: none;
+  }
+}
+
+
+#ketoDietBuddy {    
+  padding: 48px 0 0 0;
+
+  input[type=text] {
+    width: 70%;
+    margin: 12px 12px 12px 0;
+
+    @media (max-width: 576px) {
+      width: 72%;
+    }  
+  }
+
+  .calcUS {
+    span { margin-right: 12px; }
+
+    input[name=heightUSFeet], input[name=heightUSInches] {
+      width: 29%;
+
+      @media (max-width: 576px) {
+        width: 72%;
+      }
+    }
+  }
+
+  .calcMetric {
+    small { font-style: italic; }
+
+    input[name=heightMetricMeters] {
+      margin-bottom: 6px;
+    }
+  }
+}
+
+#ketoDietBuddy span.kdbFieldName,
+div.ketoBuddy span.kdbFieldName {
+    display: inline-block;
+    min-width: 96pt;
+    color: #333333;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#ketoDietBuddy h3 {
+  color: #333333;
+  font-size: 23px;
+  line-height: 1.26;
+  letter-spacing: -0.7px;
+  font-weight: bold;
+}
+
+#ketoDietBuddy h4 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 24px 0 12px 0;
+}
+
+.keto_goals_title {
+  margin-bottom: 12px;
+}
+
+#resultsLosingWeight,
+#resultsGainingWeight,
+#resultsCustom {
+  padding-top: 47.5px;
+}
+
+#ketoDietBuddy .kdbMacroContent,
+div.ketoBuddy .kdbMacroContent {
+    overflow: hidden;
+}
+
+#ketoDietBuddy .kdbMacroContentLeft,
+div.ketoBuddy .kdbMacroContentLeft {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle
+}
+
+#ketoDietBuddy .kdbEnergyOverview,
+div.ketoBuddy .kdbEnergyOverview {
+    width: 50%
+}
+
+#ketoDietBuddy .kdbMacroLegend,
+div.ketoBuddy .kdbMacroLegend {
+    margin-top: 1rem
+}
+
+#ketoDietBuddy table,
+div.ketoBuddy table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-collapse: collapse
+}
+
+#ketoDietBuddy td.kdbLegendName,
+div.ketoBuddy td.kdbLegendName {
+  color: #fff;
+
+  &.kdbNetCarbs,
+  &.kdbProtein,
+  &.kdbFat {
+    text-align: center;
+    background-color: #ffab00;
+    padding: 12px 0;
+  }
+}
+
+#ketoDietBuddy td.kdbLegendValue,
+div.ketoBuddy td.kdbLegendValue {
+  text-align: right;
+}
+
+#ketoDietBuddy td.kdbLegendUnits,
+div.ketoBuddy td.kdbLegendUnits {
+  &.kdbNetCarbs,
+  &.kdbProtein,
+  &.kdbFat {
+    padding-left: 0.5em;
+  }
+
+  &.kdbNetCarbs {
+    width: 17%;
+  }
+  &.kdbProtein {
+    width: 16%;
+  }
+  &.kdbFat {
+    width: 19%;
+  }
+
+}
+
+.kdbMacroLegend tr:nth-child(3) td {
+  background-color: #f5f5f5;
+}
+
+#ketoDietBuddy .kdbEnergyOverview td,
+div.ketoBuddy .kdbEnergyOverview td {
+  padding: 0;
+  border: none;
+}
+
+#ketoDietBuddy .kdbMacroLegend td,
+#ketoDietBuddy .kdbMacroSummary td,
+div.ketoBuddy .kdbMacroLegend td,
+div.ketoBuddy .kdbMacroSummary td {
+    padding: 12px 0;
+    border: none;
+}
+
+#ketoDietBuddy .kdbMacroContentRight,
+div.ketoBuddy .kdbMacroContentRight {
+  display: none;
+}
+
+@media (max-width:700px) {
+    #ketoDietBuddy .kdbEnergyOverview,
+    #ketoDietBuddy .kdbMacroContentLeft,
+    div.ketoBuddy .kdbEnergyOverview,
+    div.ketoBuddy .kdbMacroContentLeft {
+        width: 100%
+    }
+    #ketoDietBuddy span.kdbFieldName,
+    div.ketoBuddy span.kdbFieldName {
+        min-width: 70pt
+    }
+    #ketoDietBuddy .kdbEnergyOverview td,
+    #ketoDietBuddy .kdbMacroLegend td,
+    #ketoDietBuddy .kdbMacroSummary td,
+    div.ketoBuddy .kdbEnergyOverview td,
+    div.ketoBuddy .kdbMacroLegend td,
+    div.ketoBuddy .kdbMacroSummary td {
+        padding: .1rem
+    }
+}
+
+/* Style the tab */
+.keto_tab {
+  overflow: hidden;
+  
+  /* Style the buttons that are used to open the tab content */
+  button {
+    color: #333333;  
+    float: left;
+    background-color: transparent;
+    border: 0px solid transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 0;
+    margin-right: 24px;
+    transition: 0.3s;
+    width: 22%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+
+    .keto_tab_steps {
+      float: right;
+    }
+
+    hr {
+      height: 6px;
+      background-color: #e3e3e3;
+      border-radius: 3px;
+      border: 0;
+      width: 100%;
+      padding: 0;
+      margin: 6px 0 0 0;
+    }
+  }
+  
+  /* Change background color of buttons on hover */
+  button:hover {
+    color: #ffab00;
+
+    hr {
+      background-color: #ffab00;
+    }
+  }
+    
+  /* Create an active/current tablink class */
+  button.active {
+    color: #ffab00;
+
+    hr {
+      background-color: #ffab00;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .keto_tab {
+    button {
+      display: none;
+    }
+    
+    button.active {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+
+.keto_tab_1 {
+  button:nth-child(1) {
+    color: #ffab00;
+
+    .keto_tab_steps {
+      color: #6b6b6b;
+    }
+
+    hr {
+      background-color: #ffab00;
+    }
+  }
+}
+
+.keto_tab_2 {
+  button:nth-child(1),
+  button:nth-child(2) {
+    color: #ffab00;
+
+    .keto_tab_steps {
+      color: #6b6b6b;
+    }
+
+    hr {
+      background-color: #ffab00;
+    }
+  }
+}
+
+.keto_tab_3 {
+  button:nth-child(1),
+  button:nth-child(2),
+  button:nth-child(3) {
+    color: #ffab00;
+
+    .keto_tab_steps {
+      color: #6b6b6b;
+    }
+
+    hr {
+      background-color: #ffab00;
+    }
+  }
+}
+
+.keto_tab_4 {
+  button:nth-child(1),
+  button:nth-child(2),
+  button:nth-child(3),
+  button:nth-child(4) {
+    color: #ffab00;
+
+    .keto_tab_steps {
+      color: #6b6b6b;
+    }
+
+    hr {
+      background-color: #ffab00;
+    }
+  }
+}
+/* Style the tab content */
+.keto_tabcontent {
+  display: none;
+  padding: 0;
+
+  &:first-child {
+    display: block;
+  }
+}
+
+.keto_calc_nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-top: 1px solid #ececec;
+
+  @media (max-width: 576px) {
+    flex-direction: column-reverse;
+
+    button {
+      margin-bottom: 12px;
+    }
+  }
+  padding-top: 24px;
+  margin-top: 24px;
+}
+
+.keto_switch_container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 12px;
+}
+
+/* The switch - the box around the slider */
+label.keto_switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 24px;
+  // min-width: 48px !important;
+  // max-width: 48px !important;
+  margin: 0 24px;
+
+  /* Hide default HTML checkbox */
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+}
+
+
+/* The slider */
+.keto_slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #ffab00;
+  transition: .4s;
+
+  &:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #ffab00;
+    transition: .4s;
+  }
+}
+
+input:checked + .keto_slider:before {
+  transform: translateX(24px);
+}
+
+/* Rounded sliders */
+.keto_slider.round {
+  border-radius: 34px;
+}
+
+.keto_slider.round:before {
+  border-radius: 50%;
+}
+
+select[name='units'] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.activity_container {
+  margin-top: 12px;
+}
+
+/* The container */
+.keto_radio_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+  
+  /* Hide the browser's default radio button */
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+/* Create a custom radio button */
+.keto_radio_checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  border: 1px solid #e3e3e3;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.keto_radio_container:hover input ~ .keto_radio_checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.keto_radio_container input:checked ~ .keto_radio_checkmark {
+  background-color: #ffab00;
+  border: none;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.keto_radio_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.keto_radio_container input:checked ~ .keto_radio_checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.keto_radio_container .keto_radio_checkmark:after {
+ 	top: 6px;
+	left: 6px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: white;
+}
+
+.keto_radio_description {
+  padding-left: 35px;
+}

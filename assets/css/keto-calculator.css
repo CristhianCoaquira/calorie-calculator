@@ -1,4 +1,4 @@
-.calorie_calculator_container {
+.keto_calculator_container {
   background-color: #fff;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 576px) {
-  .calorie_calculator_container {
+  .keto_calculator_container {
     padding: 12px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -79,7 +79,7 @@
   margin: 24px 0 12px 0;
 }
 
-.calorie_goals_title {
+.keto_goals_title {
   margin-bottom: 12px;
 }
 
@@ -176,11 +176,11 @@
   }
 }
 
-.calorie_tab {
+.keto_tab {
   overflow: hidden;
 }
 
-.calorie_tab button {
+.keto_tab button {
   color: #333333;
   float: left;
   background-color: transparent;
@@ -198,11 +198,11 @@
   font-weight: bold;
 }
 
-.calorie_tab button .calorie_tab_steps {
+.keto_tab button .keto_tab_steps {
   float: right;
 }
 
-.calorie_tab button hr {
+.keto_tab button hr {
   height: 6px;
   background-color: #e3e3e3;
   -moz-border-radius: 3px;
@@ -213,91 +213,91 @@
   margin: 6px 0 0 0;
 }
 
-.calorie_tab button:hover {
+.keto_tab button:hover {
   color: #ffab00;
 }
 
-.calorie_tab button:hover hr {
+.keto_tab button:hover hr {
   background-color: #ffab00;
 }
 
-.calorie_tab button.active {
+.keto_tab button.active {
   color: #ffab00;
 }
 
-.calorie_tab button.active hr {
+.keto_tab button.active hr {
   background-color: #ffab00;
 }
 
 @media (max-width: 992px) {
-  .calorie_tab button {
+  .keto_tab button {
     display: none;
   }
 
-  .calorie_tab button.active {
+  .keto_tab button.active {
     display: block;
     width: 100%;
   }
 }
 
-.calorie_tab_1 button:nth-child(1) {
+.keto_tab_1 button:nth-child(1) {
   color: #ffab00;
 }
 
-.calorie_tab_1 button:nth-child(1) .calorie_tab_steps {
+.keto_tab_1 button:nth-child(1) .keto_tab_steps {
   color: #6b6b6b;
 }
 
-.calorie_tab_1 button:nth-child(1) hr {
+.keto_tab_1 button:nth-child(1) hr {
   background-color: #ffab00;
 }
 
-.calorie_tab_2 button:nth-child(1),.calorie_tab_2 button:nth-child(2) {
+.keto_tab_2 button:nth-child(1),.keto_tab_2 button:nth-child(2) {
   color: #ffab00;
 }
 
-.calorie_tab_2 button:nth-child(1) .calorie_tab_steps,.calorie_tab_2 button:nth-child(2) .calorie_tab_steps {
+.keto_tab_2 button:nth-child(1) .keto_tab_steps,.keto_tab_2 button:nth-child(2) .keto_tab_steps {
   color: #6b6b6b;
 }
 
-.calorie_tab_2 button:nth-child(1) hr,.calorie_tab_2 button:nth-child(2) hr {
+.keto_tab_2 button:nth-child(1) hr,.keto_tab_2 button:nth-child(2) hr {
   background-color: #ffab00;
 }
 
-.calorie_tab_3 button:nth-child(1),.calorie_tab_3 button:nth-child(2),.calorie_tab_3 button:nth-child(3) {
+.keto_tab_3 button:nth-child(1),.keto_tab_3 button:nth-child(2),.keto_tab_3 button:nth-child(3) {
   color: #ffab00;
 }
 
-.calorie_tab_3 button:nth-child(1) .calorie_tab_steps,.calorie_tab_3 button:nth-child(2) .calorie_tab_steps,.calorie_tab_3 button:nth-child(3) .calorie_tab_steps {
+.keto_tab_3 button:nth-child(1) .keto_tab_steps,.keto_tab_3 button:nth-child(2) .keto_tab_steps,.keto_tab_3 button:nth-child(3) .keto_tab_steps {
   color: #6b6b6b;
 }
 
-.calorie_tab_3 button:nth-child(1) hr,.calorie_tab_3 button:nth-child(2) hr,.calorie_tab_3 button:nth-child(3) hr {
+.keto_tab_3 button:nth-child(1) hr,.keto_tab_3 button:nth-child(2) hr,.keto_tab_3 button:nth-child(3) hr {
   background-color: #ffab00;
 }
 
-.calorie_tab_4 button:nth-child(1),.calorie_tab_4 button:nth-child(2),.calorie_tab_4 button:nth-child(3),.calorie_tab_4 button:nth-child(4) {
+.keto_tab_4 button:nth-child(1),.keto_tab_4 button:nth-child(2),.keto_tab_4 button:nth-child(3),.keto_tab_4 button:nth-child(4) {
   color: #ffab00;
 }
 
-.calorie_tab_4 button:nth-child(1) .calorie_tab_steps,.calorie_tab_4 button:nth-child(2) .calorie_tab_steps,.calorie_tab_4 button:nth-child(3) .calorie_tab_steps,.calorie_tab_4 button:nth-child(4) .calorie_tab_steps {
+.keto_tab_4 button:nth-child(1) .keto_tab_steps,.keto_tab_4 button:nth-child(2) .keto_tab_steps,.keto_tab_4 button:nth-child(3) .keto_tab_steps,.keto_tab_4 button:nth-child(4) .keto_tab_steps {
   color: #6b6b6b;
 }
 
-.calorie_tab_4 button:nth-child(1) hr,.calorie_tab_4 button:nth-child(2) hr,.calorie_tab_4 button:nth-child(3) hr,.calorie_tab_4 button:nth-child(4) hr {
+.keto_tab_4 button:nth-child(1) hr,.keto_tab_4 button:nth-child(2) hr,.keto_tab_4 button:nth-child(3) hr,.keto_tab_4 button:nth-child(4) hr {
   background-color: #ffab00;
 }
 
-.calorie_tabcontent {
+.keto_tabcontent {
   display: none;
   padding: 0;
 }
 
-.calorie_tabcontent:first-child {
+.keto_tabcontent:first-child {
   display: block;
 }
 
-.calorie_calc_nav {
+.keto_calc_nav {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -318,7 +318,7 @@
 }
 
 @media (max-width: 576px) {
-  .calorie_calc_nav {
+  .keto_calc_nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -moz-box-orient: vertical;
@@ -327,12 +327,12 @@
     flex-direction: column-reverse;
   }
 
-  .calorie_calc_nav button {
+  .keto_calc_nav button {
     margin-bottom: 12px;
   }
 }
 
-.calorie_switch_container {
+.keto_switch_container {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -344,7 +344,7 @@
   margin-top: 12px;
 }
 
-label.calorie_switch {
+label.keto_switch {
   position: relative;
   display: inline-block;
   width: 48px;
@@ -352,13 +352,13 @@ label.calorie_switch {
   margin: 0 24px;
 }
 
-label.calorie_switch input {
+label.keto_switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-.calorie_slider {
+.keto_slider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -371,7 +371,7 @@ label.calorie_switch input {
   transition: .4s;
 }
 
-.calorie_slider:before {
+.keto_slider:before {
   position: absolute;
   content: "";
   height: 18px;
@@ -384,18 +384,18 @@ label.calorie_switch input {
   transition: .4s;
 }
 
-input:checked+.calorie_slider:before {
+input:checked+.keto_slider:before {
   -webkit-transform: translateX(24px);
   -moz-transform: translateX(24px);
   transform: translateX(24px);
 }
 
-.calorie_slider.round {
+.keto_slider.round {
   -moz-border-radius: 34px;
   border-radius: 34px;
 }
 
-.calorie_slider.round:before {
+.keto_slider.round:before {
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
@@ -410,7 +410,7 @@ select[name='units'] {
   margin-top: 12px;
 }
 
-.calorie_radio_container {
+.keto_radio_container {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -423,13 +423,13 @@ select[name='units'] {
   user-select: none;
 }
 
-.calorie_radio_container input {
+.keto_radio_container input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
-.calorie_radio_checkmark {
+.keto_radio_checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -441,26 +441,26 @@ select[name='units'] {
   border-radius: 50%;
 }
 
-.calorie_radio_container:hover input ~ .calorie_radio_checkmark {
+.keto_radio_container:hover input ~ .keto_radio_checkmark {
   background-color: #ccc;
 }
 
-.calorie_radio_container input:checked ~ .calorie_radio_checkmark {
+.keto_radio_container input:checked ~ .keto_radio_checkmark {
   background-color: #ffab00;
   border: none;
 }
 
-.calorie_radio_checkmark:after {
+.keto_radio_checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.calorie_radio_container input:checked ~ .calorie_radio_checkmark:after {
+.keto_radio_container input:checked ~ .keto_radio_checkmark:after {
   display: block;
 }
 
-.calorie_radio_container .calorie_radio_checkmark:after {
+.keto_radio_container .keto_radio_checkmark:after {
   top: 6px;
   left: 6px;
   width: 12px;
@@ -470,6 +470,6 @@ select[name='units'] {
   background: white;
 }
 
-.calorie_radio_description {
+.keto_radio_description {
   padding-left: 35px;
 }
