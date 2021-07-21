@@ -177,14 +177,14 @@ function ketoDietBuddy() {
       function i(t) {
         var i = "<table>";
         return (
-          (i += e("Your Basal Metabolic Rate is:", t.bmr.toFixed(0), "kcal")),
+          (i += e("Su tasa metabólica basal es:", t.bmr.toFixed(0), "kcal")),
           (i += e(
-            "Your net carbs intake is:",
+            "Su ingesta neta de carbohidratos es:",
             t.netCarbs.toFixed(0),
             "gramos"
           )),
           (i += e(
-            "Your ideal protein intake is:",
+            "Tu ingesta ideal de proteínas es:",
             t.longTermProteinIntake.toFixed(0),
             "gramos"
           )),
@@ -263,7 +263,7 @@ function ketoDietBuddy() {
         var c = document.createElement("p");
         c.setAttribute("class", "kdbWarning"),
           (c.innerHTML = t(
-            "Your fat intake is too low. Please, select a smaller calorie deficit."
+            "Tu ingesta de grasas es demasiado baja. Por favor, seleccione un déficit de calorías menor."
           )),
           r.appendChild(c);
       }
@@ -274,7 +274,7 @@ function ketoDietBuddy() {
         var c = document.createElement("p");
         c.setAttribute("class", "kdbWarning"),
           (c.innerHTML = t(
-            "Your calorie intake is too low. Please, select a smaller calorie deficit to minimise the risk of micronutrient deficiencies. You should be aiming for no more than 1-2 pounds of fat loss per week."
+            "Tu ingesta de calorías es demasiado baja. Por favor, seleccione un déficit de calorías menor para minimizar el riesgo de deficiencias de micronutrientes. No debe aspirar a perder más de 1 a 2 libras de grasa por semana."
           )),
           r.appendChild(c);
       }
@@ -321,35 +321,6 @@ function ketoDietBuddy() {
           label: "Grasa",
         },
       ];
-      //     y = new Chart(g.getContext("2d"));
-      // Chart.types.Pie.extend({
-      //     name: "PieWithLabels",
-      //     draw: function() {
-      //         Chart.types.Pie.prototype.draw.apply(this, arguments), this.chart.ctx.fillStyle = "black", this.chart.ctx.textAlign = "center", this.chart.ctx.textBaseline = "middle", this.chart.ctx.fillStyle = "#000", this.chart.ctx.font = "normal 10px Helvetica";
-      //         for (var t = 0; t < this.segments.length; t++) {
-      //             var e = this.segments[t].value.toFixed(0);
-      //             if (e >= 5) {
-      //                 var i = this.segments[t].startAngle + (this.segments[t].endAngle - this.segments[t].startAngle) / 2,
-      //                     s = this.segments[t].outerRadius / 1.5,
-      //                     n = this.segments[t].x + Math.cos(i) * s,
-      //                     a = this.segments[t].y + Math.sin(i) * s;
-      //                 this.chart.ctx.fillText(e + "%", n, a)
-      //             }
-      //         }
-      //     }
-      // }), y.PieWithLabels(v, {
-      //     responsive: !1,
-      //     maintainAspectRatio: !0,
-      //     showTooltips: !1,
-      //     segmentShowStroke: !0,
-      //     segmentStrokeColor: "#fff",
-      //     segmentStrokeWidth: 2,
-      //     animationEasing: "easeOutLinear",
-      //     animationSteps: 30,
-      //     animateScale: !1,
-      //     animateRotate: !0,
-      //     onAnimationComplete: function() {}
-      // }),
       m.innerHTML = h();
     });
 }
@@ -381,11 +352,11 @@ function getCookie(t) {
 function tryGetText(t, e, i) {
   try {
     var s = jQuery(t).val();
-    if (0 === s.length) throw "Missing value";
+    if (0 === s.length) throw "Valor que falta";
     var n = parseFloat(s);
-    if (isNaN(n)) throw "Invalid value";
-    if (void 0 !== e && e > n) throw "Invalid value";
-    if (void 0 !== i && n > i) throw "Invalid value";
+    if (isNaN(n)) throw "Valor no válido";
+    if (void 0 !== e && e > n) throw "Valor no válido";
+    if (void 0 !== i && n > i) throw "Valor no válido";
     return (
       setCookie(getCookieId(t), s, 30),
       jQuery(t).css("border", "1px solid #e3e3e3"),
@@ -629,7 +600,11 @@ function rebuildUI(t, e) {
         jQuery("#resultsCustom").hide(),
         jQuery("p.kdbWarning.kdbCARBSTOOHIGH").hide(),
         updateResults(10, "resultsSmallSurplus", "Excedente de calorías (10%)"),
-        updateResults(15, "resultsMediumSurplus", "Excedente de calorías (15%)"),
+        updateResults(
+          15,
+          "resultsMediumSurplus",
+          "Excedente de calorías (15%)"
+        ),
         updateResults(20, "resultsLargeSurplus", "Excedente de calorías (20%)"))
       : (jQuery("#resultsLosingWeight").hide(),
         jQuery("#resultsGainingWeight").hide(),
@@ -3586,6 +3561,7 @@ jQuery(document).ready(function ($) {
 
   jQuery(".keto_tab .tablinks:nth-child(3)").on("click", function () {
     openTab(2);
+    
   });
 
   jQuery(".keto_tab .tablinks:nth-child(4)").on("click", function () {
